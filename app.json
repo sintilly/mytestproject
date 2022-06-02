@@ -1,0 +1,39 @@
+{
+  "name": "name",
+  "description": "",
+  "keywords": [],
+  "env": {
+    "ENCRYPT": {
+      "description": "enc",
+      "value": "chacha20-ietf-poly1305"
+    },
+
+    "PASSWORD": {
+      "description": "uuid.online",
+      "value": "5c301bb8-6c77-41a0-a606-4ba11bbab084"
+    },
+
+    "V2_Path": {
+      "description": "secret path",
+      "generator": "secret"
+    },
+
+    "AppName": {
+      "description": "name app",
+      "value": "name"
+    },
+
+    "TG_BOT_TOKEN": {
+      "description": "token bot tg",
+      "value": "abc:12345"
+    },
+
+    "TG_CHAT_ID": {
+      "description": "chat id",
+      "value": "1234567 or -1234567"
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+}
